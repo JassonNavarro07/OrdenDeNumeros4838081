@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OrdenDeNumeros4838081.Invertidos"
+             Title="invertidos">
+    <ScrollView>
+        <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25">
+        <Label 
+            Text="Invertir numeros!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+       
+        <Image
+           Source="Captura de pantalla 2024-06-02 155540.png"
+           HeightRequest="185"
+           Aspect="AspectFit"
+           SemanticProperties.Description="dot net bot in a race car number eight" />
+       
+         
+        <Entry x:Name="entry1" Placeholder="Ingrese el primer numero" Keyboard="Numeric"/>
+        <Entry x:Name="entry2" Placeholder="Ingrese el segundo numero" Keyboard="Numeric"/>
+        <Entry x:Name="entry3" Placeholder="Ingrese el tercer numero" Keyboard="Numeric"/>
+        <Entry x:Name="entry4" Placeholder="Ingrese el cuarto numero" Keyboard="Numeric"/>
+        <Button Text="Invertir" Clicked="Button_Clicked_1"/>
+        <Entry x:Name="entry5" Placeholder="Numeros invertidos son" Keyboard="Numeric"/>
+         
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
